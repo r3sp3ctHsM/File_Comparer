@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a0b89f1d-a04f-4687-84dc-40527b931272</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>File_Comparer.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="File_Comparer.py" />
+    <Compile Include="text_utils.py" />
+    <Compile Include="image_utils.py" />
+    <Compile Include="docx_utils.py" />
+    <Compile Include="rtf_utils.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
